@@ -1,4 +1,5 @@
 ﻿using System;
+using GSMType.Common;
 
 class ApplyConstructors
 {
@@ -6,6 +7,6 @@ class ApplyConstructors
     {
         Battery battery = new Battery("teehee");
         Display display = new Display(5.5);
-        GSM bla = new GSM("zte", "manufacturer", 259.99m, "ME", battery, display);
+        GSM gsm = new GSM("zte", "manufacturer", 259.99m, "ME", battery, display);
     }
 }
