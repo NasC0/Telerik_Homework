@@ -6,5 +6,6 @@ class DeclareClasses
     {
         Console.WriteLine("Teehee");
         Console.WriteLine("Blabla");
+        Console.WriteLine("NewTest");
     }
 }
