@@ -4,6 +4,6 @@ class DeclareClasses
 {
     static void Main()
     {
-        
+        int
     }
 }
