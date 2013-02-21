@@ -1,0 +1,34 @@
+﻿ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    list-style: none;
+    float: left;
+}
+
+nav ul {
+    width: 60px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav ul li ul {
+        display: none;
+    }
+
+        nav ul li ul li {
+            color: #E2D4C8;
+        }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }

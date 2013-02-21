@@ -1,0 +1,42 @@
+﻿body {
+    font-family: Arial;
+}
+
+table {
+    width:50%;
+    border-collapse: collapse;
+    border: 1px solid #D4D3C2;
+}
+
+thead {
+    text-align: left;
+    text-decoration: none;
+    color: #E3FEDF;
+    background-color: #52B506;
+}
+
+th {
+    border-bottom: solid 1px #D4D3C2;
+}
+
+td, th {
+    padding: 6px;
+    border-right: solid 1px #D4D3C2;
+}
+
+tbody tr:nth-child(2) {
+    background-color: #ECECD8;
+}
+
+tfoot tr {
+    background-color: #ECECD8;
+}
+
+.size {
+    width: 18%;
+}
+
+ img{
+    width:15%;
+    height:50%;
+}

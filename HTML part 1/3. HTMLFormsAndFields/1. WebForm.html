@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Form!</title>
+    <style type="text/css">
+        tfoot {
+            background-color:#0094ff; text-align:center
+        }
+    </style>
+</head>
+<body>
+    <form name="WebForme" method="post">
+        <table border="1" cellspacing="0" cellpadding="10" style="width: 40%">
+            <tfoot>
+                <tr>
+                    <td colspan="7"><input type="submit" value="Submit" /> <input type="reset" value="Reset!" /></td>
+                </tr>
+            </tfoot>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"<label for="lName">Last Name: </label></td>
+                <td colspan="4"><input type="text" id="lName" style="width: 90%" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="fName">First Name: </label></td>
+                <td colspan="4"><input type="text" id="fName" style="width: 90%" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="addr">Address: </label></td>
+                <td colspan="4"><textarea id="addr" style="width: 90%"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="city">City: </label></td>
+                <td colspan="2"><input type="text" id="city" /></td>
+                <td style="text-align: right; font-weight:bold"><label for="state">State: </label> </td>
+                <td><input type="text" id="state" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="zip">Zip/Postal code: </label>
+                </td>
+                <td colspan="4"><input type="text" id="zip" style="width: 25%" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="country">Country: </label>
+                </td>
+                <td colspan="4">
+                    <select id="country" style="width: 70%">
+                        <option value="Bulgaria">Bulgaria </option>
+                        <option value="Greece">Greece </option>
+                        <option value="Romania">Romania </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold">Phone (country code, area code, number)</td>
+                <td colspan="4">(+<input type="text" style="width: 10%" />)<input type="text" style="width: 10%" />-<input type="text" style="width: 30%" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="email">E-mail: </label></td>
+                <td colspan="4"><input type="text" id="email" style="width:90%"</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold">Birth Date</td>
+                <td colspan="4">
+                    <label for="month">Moth</label><input type="text" id="month" size="2" /><label for="day"> Day</label><input type="text" id="day" size="2" /><label for="year"> Year (must be 4 digits)</label><input type="text" id="year" size="4" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="gender">Gender: </label></td>
+                <td colspan="4">
+                    <select id="gender" style="width: 70%">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold">Starting Date: </td>
+                <td colspan="4">
+                    <input type="radio" name="season" value="Spring" />
+                    Spring 2006
+                    <input type="radio" name="season" value="summer" />
+                    Summer 2006
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight:bold"><label for="comm">Comments/Questions: </label></td>
+                <td colspan="4"><textarea id="comm" style="width: 100%"></textarea></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

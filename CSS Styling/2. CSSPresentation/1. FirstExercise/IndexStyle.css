@@ -1,0 +1,14 @@
+﻿#MyParagraph {
+    color: #0094ff;
+    font-family: Consolas, serif;
+}
+
+#MyParagraph:first-line{
+    font-weight: bold;
+}
+
+span{
+    font-family: 'Edwardian Script ITC';
+    font-weight: bold;
+    font-size: 3em;
+}

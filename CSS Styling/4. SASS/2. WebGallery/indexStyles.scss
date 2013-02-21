@@ -1,0 +1,36 @@
+body, ul, li, section{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	ul{
+		margin-left: 50px;
+		margin-bottom: 20px;
+		li{
+			display:inline-block;
+
+			img{
+				width: 200px;
+				height: 150px;
+			}
+		}
+	}
+	section{
+		input{
+			display: none;
+		}
+		img{
+			margin-left: 50px;
+			display: none;
+			width: 500px;
+			height: 400px;
+		}
+			input[type="radio"]
+			{
+				&:checked + .images{
+					display: inline-block;
+				}
+			}
+	}
+}

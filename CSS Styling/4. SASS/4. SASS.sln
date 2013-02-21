@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. SimpleWebPage", "1. SimpleWebPage\1. SimpleWebPage.csproj", "{065F3ECC-BA20-472A-B8E5-F07F6133B8AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. WebGallery", "2. WebGallery\2. WebGallery.csproj", "{434F0B5C-E0C9-491B-93DE-4028B53E1F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065F3ECC-BA20-472A-B8E5-F07F6133B8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065F3ECC-BA20-472A-B8E5-F07F6133B8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065F3ECC-BA20-472A-B8E5-F07F6133B8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065F3ECC-BA20-472A-B8E5-F07F6133B8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434F0B5C-E0C9-491B-93DE-4028B53E1F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434F0B5C-E0C9-491B-93DE-4028B53E1F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434F0B5C-E0C9-491B-93DE-4028B53E1F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434F0B5C-E0C9-491B-93DE-4028B53E1F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

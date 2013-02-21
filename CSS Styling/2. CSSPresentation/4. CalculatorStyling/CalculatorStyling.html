@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator Styles</title>
+    <link href="CalculatorStyling.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="Outer-wrapper">
+        <div id="left-div">
+            <p>Calculator</p>
+        </div>
+        <div id="right-div"></div>
+        <div id="Inner-wrapper">
+            <div id="menu">
+                <ul>
+                    <li><span>V</span>iew</li>
+                    <li><span>F</span>ile</li>
+                    <li><span>E</span>dit</li>
+                </ul>
+            </div>
+            <div id="display">
+                <p>8854455</p>
+            </div>
+            <div id="binary-presentation">
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                </ul>
+                <ul>
+                    <li class="doubles">63</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="doubles">47</li>
+                    <li></li>
+                    <li></li>
+                    <li class="doubles">32</li>
+                </ul>
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>1000</li>
+                    <li>0111</li>
+                    <li>0001</li>
+                    <li>1011</li>
+                    <li>1011</li>
+                    <li>0111</li>
+                </ul>
+                <ul>
+                    <li class="doubles">31</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="doubles">15</li>
+                    <li></li>
+                    <li></li>
+                    <li class="doubles">0</li>
+                </ul>
+            </div>
+            <div id="options-container">
+                <ul class="options">
+                    <li>
+                        <input type="radio" name="numerics" id="hex" value="Hex" />
+                        <label for="hex">Hex</label></li>
+                    <li>
+                        <input type="radio" name="numerics" id="dec" checked value="Dec" />
+                        <label for="dec">Dec</label></li>
+                    <li>
+                        <input type="radio" name="numerics" id="oct" value="Oct" />
+                        <label for="oct">Oct</label></li>
+                    <li>
+                        <input type="radio" name="numerics" id="bin" value="Bin" /><label for="bin">Bin</label></li>
+                </ul>
+                <ul class="options">
+                    <li>
+                        <input type="radio" name="size" id="qword" checked value="qword" /><label for="qword">Qword</label></li>
+                    <li>
+                        <input type="radio" name="size" id="dword" value="dword" /><label for="dword">Dword</label></li>
+                    <li>
+                        <input type="radio" name="size" id="word" value="word" /><label for="word">Word</label></li>
+                    <li>
+                        <input type="radio" name="size" id="byte" value="byte" /><label for="byte">Byte</label></li>
+                </ul>
+            </div>
+            <div id="buttons-container">
+                <ul class="buttons">
+                    <li><button class="muted" disabled="disabled">&nbsp;</button></li>
+                    <li><button>Mod</button></li>
+                    <li><button class="muted" disabled="disabled">A</button></li>
+                    <li><button class="muted">MC</button></li>
+                    <li><button class="muted">MR</button></li>
+                    <li><button class="muted">MS</button></li>
+                    <li><button class="muted">M+</button></li>
+                    <li><button class="muted">M-</button></li>
+                </ul>
+                <ul>
+                    <li><button>(</button></li>
+                    <li><button>)</button></li>
+                    <li><button class="muted" disabled="disabled">B</button></li>
+                    <li><button id="arrow">←</button></li>
+                    <li><button>CE</button></li>
+                    <li><button>C</button></li>
+                    <li><button>±</button></li>
+                    <li><button class="muted">√</button></li>
+                </ul>
+                <ul>
+                    <li><button>RoL</button></li>
+                    <li><button>RoR</button></li>
+                    <li><button class="muted" disabled="disabled">B</button></li>
+                    <li><button class="loud">7</button></li>
+                    <li><button class="loud">8</button></li>
+                    <li><button class="loud">9</button></li>
+                    <li><button>/</button></li>
+                    <li><button class="muted">%</button></li>
+                </ul>
+                <ul>
+                    <li><button>Or</button></li>
+                    <li><button>Xor</button></li>
+                    <li><button class="muted" disabled="disabled">D</button></li>
+                    <li><button class="loud">4</button></li>
+                    <li><button class="loud">5</button></li>
+                    <li><button class="loud">6</button></li>
+                    <li><button>*</button></li>
+                    <li><button class="muted">1/x</button></li>
+                </ul>
+                <ul>
+                    <li><button>Lsh</button></li>
+                    <li><button>Rsh</button></li>
+                    <li><button class="muted" disabled="disabled">E</button></li>
+                    <li><button class="loud">1</button></li>
+                    <li><button class="loud">2</button></li>
+                    <li><button class="loud">3</button></li>
+                    <li><button>-</button></li>
+                </ul>
+                <ul id="height-adjustment-list">
+                    <li><button id="height-adjustment">=</button></li>
+                </ul>
+                <ul>
+                    <li><button>Not</button></li>
+                    <li><button>And</button></li>
+                    <li><button class="muted" disabled="disabled">F</button></li>
+                    <li><button id="width-adjustment" class="loud">0</button></li>
+                    <li><button class="muted" disabled="disabled">.</button></li>
+                    <li><button>+</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

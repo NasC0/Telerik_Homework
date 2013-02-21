@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C5C4B10-7A36-41D2-A9B7-5971085EB6EF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\Desktop\C++ Shit\HTML\HTML Basics\blabla.jpg = ..\..\..\..\..\..\Desktop\C++ Shit\HTML\HTML Basics\blabla.jpg
+		Friends.html = Friends.html
+		Info.html = Info.html
+		Lists.html = Lists.html
+		Profile.html = Profile.html
+		Runners.html = Runners.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

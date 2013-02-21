@@ -1,0 +1,44 @@
+﻿body {
+    background-color: #606060;
+}
+
+td {
+    padding: 3px;
+}
+
+#heading {
+    font-family: Consolas;
+    color: #a0a0a0;
+}
+
+.no-padding{
+    padding-top: 0;
+    color: red;
+}
+
+.first-table-row {
+    width: 150px;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    color: #C8C8C8;
+    text-align: left;
+}
+
+.links {
+    text-decoration: none;
+    color: #d7a04e;
+}
+
+    .links:visited {
+        color: #d7a04e;
+    }
+
+td:not(.first-table-row):not(.links):not(.second-table-row):not(.no-padding)
+{
+    color: #a0a0a0;
+}
+
+tfoot{
+    color:#ff6a00;
+}

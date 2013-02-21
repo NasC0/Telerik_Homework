@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FDD7359-5882-4CAE-8691-36CE98EB6A0B}"
+	ProjectSection(SolutionItems) = preProject
+		1.TableStyles.html = 1.TableStyles.html
+		2.TableStyles2.html = 2.TableStyles2.html
+		3.Rework.html = 3.Rework.html
+		3.ReworkStyles.css = 3.ReworkStyles.css
+		C:\Users\Kickass\Pictures\Germany.png = C:\Users\Kickass\Pictures\Germany.png
+		C:\Users\Kickass\Pictures\Mexico.png = C:\Users\Kickass\Pictures\Mexico.png
+		TableStyles1.css = TableStyles1.css
+		TableStyles2.css = TableStyles2.css
+		C:\Users\Kickass\Pictures\Uk.png = C:\Users\Kickass\Pictures\Uk.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

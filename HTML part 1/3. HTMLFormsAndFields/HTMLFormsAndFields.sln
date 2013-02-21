@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12D5901C-6E4E-4170-8A72-0379690DD2C2}"
+	ProjectSection(SolutionItems) = preProject
+		1. WebForm.html = 1. WebForm.html
+		2. TablesAndForms.html = 2. TablesAndForms.html
+		3. GridComponents.html = 3. GridComponents.html
+		4. FieldsetsAndTables.html = 4. FieldsetsAndTables.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

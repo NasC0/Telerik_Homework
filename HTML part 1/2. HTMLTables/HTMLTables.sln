@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADFC4785-24D6-4230-A65E-1033E9A5FC30}"
+	ProjectSection(SolutionItems) = preProject
+		1, Tables2.html = 1, Tables2.html
+		1. Table1.html = 1. Table1.html
+		2. FormsPage.html = 2. FormsPage.html
+		3. CalculatorTable.html = 3. CalculatorTable.html
+		..\..\..\..\..\..\Desktop\fruits.jpg = ..\..\..\..\..\..\Desktop\fruits.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
