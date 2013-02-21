@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DeclareClasses", "1. DeclareClasses\1. DeclareClasses.csproj", "{D1F7E4DD-CF90-41E4-8D05-92A9C974B4B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ApplyConstructors", "2. ApplyConstructors\2. ApplyConstructors.csproj", "{BC3E4360-6441-4A9E-9963-39F879FBA8B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D1F7E4DD-CF90-41E4-8D05-92A9C974B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1F7E4DD-CF90-41E4-8D05-92A9C974B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1F7E4DD-CF90-41E4-8D05-92A9C974B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3E4360-6441-4A9E-9963-39F879FBA8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3E4360-6441-4A9E-9963-39F879FBA8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3E4360-6441-4A9E-9963-39F879FBA8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3E4360-6441-4A9E-9963-39F879FBA8B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

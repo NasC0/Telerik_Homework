@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace GSM
+class Test
 {
-    class Test
+    static void Main()
     {
-        static void Main()
-        {
-            Battery batter = new Battery();
-            Display display = new Display();
-            GSM gsm = new GSM();
-        }
+        Battery batter = new Battery();
+        Display display = new Display();
+        GSM gsm = new GSM();
     }
 }
