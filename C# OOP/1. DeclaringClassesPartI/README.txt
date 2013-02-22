@@ -1,0 +1,1 @@
+Declaring Classes Part I homework tasks
