@@ -13,18 +13,8 @@ class GSMCallHistoryTest
         gsm.PrintCalls();
         Console.WriteLine(gsm.CallsPrice(0.37m));
         Console.WriteLine();
-        List<Call> history = gsm.CallHistory;
-        int maxDuration = history[0].Duration;
-        int position = 0;
-        for (int i = 1; i < history.Count; i++)
-        {
-            if (history[i].Duration > maxDuration)
-            {
-                maxDuration = history[i].Duration;
-                position = i;
-            }
-        }
-        gsm.RemoveCall(history[position].PhoneNumber);
+        gsm.RemoveLongestcall();
+        gsm.PrintCalls();
         Console.WriteLine(gsm.CallsPrice(0.37m));
         gsm.ClearHistory();
         gsm.PrintCalls();
