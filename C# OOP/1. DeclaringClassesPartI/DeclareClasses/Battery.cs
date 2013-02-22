@@ -9,6 +9,10 @@ namespace GSMType.Common
         private double? talkHours;
         private BatteryType? type;
 
+        public Battery() : this(null, null, null, null)
+        {
+            
+        }
 
         public Battery(BatteryType type)
             : this(null, null, null, type)
@@ -37,8 +41,22 @@ namespace GSMType.Common
         public Battery(string model, double? idleHours, double? talkHours, BatteryType? type)
         {
             this.model = model;
-            this.idleHours = idleHours;
-            this.talkHours = talkHours;
+            if (idleHours <= 0)
+            {
+                throw new ArgumentException();
+            }
+            else
+            {
+                this.idleHours = idleHours;
+            }
+            if (talkHours <= 0)
+            {
+                throw new ArgumentException();
+            }
+            else
+            {
+                this.talkHours = talkHours;
+            }
             this.type = type;
         }
 
@@ -51,13 +69,33 @@ namespace GSMType.Common
         public double? IdleHours
         {
             get { return this.idleHours; }
-            set { this.idleHours = value; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.idleHours = value;
+                }
+            }
         }
 
         public double? TalkHours
         {
             get { return this.talkHours; }
-            set { this.talkHours = value; }
+            set 
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.talkHours = value;
+                }
+            }
         }
 
         public BatteryType? Type

@@ -7,6 +7,11 @@ namespace GSMType.Common
         private double? size;
         private int? colorsNumber;
 
+        public Display() : this(null, null)
+        {
+            
+        }
+
         public Display(double? size)
             : this(size, null)
         {
@@ -15,20 +20,54 @@ namespace GSMType.Common
 
         public Display(double? size, int? colorsNumber)
         {
-            this.size = size;
-            this.colorsNumber = colorsNumber;
+            if (size <= 0)
+            {
+                throw new ArgumentException();
+            }
+            else
+            {
+                this.size = size;
+            }
+            if (colorsNumber <= 0)
+            {
+                throw new ArgumentException();
+            }
+            else
+            {
+                this.colorsNumber = colorsNumber;
+            }
         }
 
         public double? Size
         {
             get { return this.size; }
-            set { this.size = value; }
+            set 
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.size = value;
+                }
+            }
         }
 
         public int? ColorsNumber
         {
             get { return this.colorsNumber; }
-            set { this.colorsNumber = value; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    this.colorsNumber = value;
+                }
+            }
         }
     }
 }
