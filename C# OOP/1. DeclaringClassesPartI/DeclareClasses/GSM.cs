@@ -91,6 +91,21 @@ namespace GSMType.Common
             }
         }
 
+        public void RemoveLongestcall()
+        {
+            int maxDuration = this.callHistory[0].Duration;
+            int position = 0;
+            for (int i = 1; i < this.callHistory.Count; i++)
+            {
+                if (this.callHistory[i].Duration > maxDuration)
+                {
+                    maxDuration = this.callHistory[i].Duration;
+                    position = i;
+                }
+            }
+            RemoveCall(this.callHistory[position].PhoneNumber);
+        }
+
         public void ClearHistory()
         {
             this.callHistory.Clear();
