@@ -6,23 +6,36 @@ class GenericListTest
 {
     static void Main()
     {
-        GenericList<int> bla = new GenericList<int>(10);
-        for (int i = 0; i < 20; i++)
+        GenericList<int> test = new GenericList<int>(10);
+        for (int i = 0; i < test.Length; i++)
         {
-            bla.Add(i);
+            test.Add(i);
         }
-        Console.WriteLine(bla.ToString());
-        bla.Remove(15);
-        Console.WriteLine(bla.ToString());
-        bla.Insert(15, 15);
-        Console.WriteLine(bla);
-        GenericList<int> newBla = new GenericList<int>(10);
-        for (int i = 0; i < 10; i++)
+        Console.WriteLine(test.ToString());
+        test.Remove(9);
+        Console.WriteLine(test.ToString());
+        test.Insert(9, 9);
+        Console.WriteLine(test);
+        GenericList<int> newTest = new GenericList<int>(10);
+        for (int i = 0; i < newTest.Length - 1; i++)
         {
-            newBla.Add(i);
+            newTest.Add(i);
         }
-        Console.WriteLine(newBla);
-        newBla.Insert(10, 10);
-        Console.WriteLine(newBla);
+        Console.WriteLine(newTest);
+        newTest.Insert(10, 9);
+        Console.WriteLine(newTest);
+        newTest.Clear();
+        Console.WriteLine(newTest);
+        Console.WriteLine(test[3]);
+        GenericList<string> stringTest = new GenericList<string>(10);
+        for (int i = 0; i < stringTest.Length - 2; i++)
+        {
+            stringTest.Add(i.ToString());
+        }
+        Console.WriteLine(stringTest);
+        stringTest.Add("huehuehueheuhe");
+        Console.WriteLine(stringTest);
+        stringTest.Insert("Teehee", 9);
+        Console.WriteLine(stringTest);
     }
 }

@@ -10,9 +10,11 @@ namespace GenericList.Common
     {
         private T[] array;
         private int count = 0;
+        private int size;
 
         public GenericList(int size)
         {
+            this.size = size;
             this.array = new T[size];
         }
 
@@ -65,6 +67,11 @@ namespace GenericList.Common
             }
         }
 
+        public void Clear()
+        {
+            this.array = new T[size];
+        }
+
         public void Remove(int index)
         {
             if (index < 0 || index >= this.array.Length)
@@ -87,6 +94,16 @@ namespace GenericList.Common
             }
         }
 
+        public T Max()
+        {
+            return (T)(object)this.array.Max();
+        }
+
+        public T Min()
+        {
+            return (T)(object)this.array.Min();
+        }
+
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -96,6 +113,23 @@ namespace GenericList.Common
                 sb.Append(" ");
             }
             return sb.ToString();
+        }
+
+        public int Length
+        {
+            get { return this.array.Length; }
+        }
+
+        public T this[int index]
+        {
+            get
+            {
+                if (index > count)
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+                return this.array[index];
+            }
         }
     }
 }
