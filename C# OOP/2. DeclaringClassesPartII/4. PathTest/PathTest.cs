@@ -11,6 +11,7 @@ class PathTest
         path.AddPoint(Point.CoordStart);
         path.AddPoint(new Point(4, 5, 6));
         path.AddPoint(new Point(7, 8, 9));
+        path.AddPoint(new Point(11, 12, 13));
         Console.WriteLine(path.ToString());
         string filePath = @"..\..\save.txt";
         PathStorage.SavePath(filePath, path);

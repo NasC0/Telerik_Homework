@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndStructures", "ClassesAndStructures\ClassesAndStructures.csproj", "{1DC66D9E-3011-4C05-8AD5-126EEF586B32}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. PointTest", "1. PointTest\1. PointTest.csproj", "{4F65518A-2E5A-4D47-9E83-FE0BD65C9DB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. CoordStart", "2. CoordStart\2. CoordStart.csproj", "{BC312414-7A16-4615-92E9-BC4324F92C9E}"
@@ -11,16 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. DistanceTest", "3. Dista
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. PathTest", "4. PathTest\4. PathTest.csproj", "{A00218D4-4719-4E08-851A-03DE2A9910A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointClasses", "PointClasses\PointClasses.csproj", "{1DC66D9E-3011-4C05-8AD5-126EEF586B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericListDLL", "GenericListDLL\GenericListDLL.csproj", "{C76C4AAF-9191-4CDF-854B-9E14214DC341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. GenericListTest", "5. GenericListTest\5. GenericListTest.csproj", "{C22E804E-C4D9-4580-B391-B60B3816290B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F65518A-2E5A-4D47-9E83-FE0BD65C9DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F65518A-2E5A-4D47-9E83-FE0BD65C9DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F65518A-2E5A-4D47-9E83-FE0BD65C9DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +37,18 @@ Global
 		{A00218D4-4719-4E08-851A-03DE2A9910A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A00218D4-4719-4E08-851A-03DE2A9910A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A00218D4-4719-4E08-851A-03DE2A9910A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC66D9E-3011-4C05-8AD5-126EEF586B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76C4AAF-9191-4CDF-854B-9E14214DC341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76C4AAF-9191-4CDF-854B-9E14214DC341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76C4AAF-9191-4CDF-854B-9E14214DC341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76C4AAF-9191-4CDF-854B-9E14214DC341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22E804E-C4D9-4580-B391-B60B3816290B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22E804E-C4D9-4580-B391-B60B3816290B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22E804E-C4D9-4580-B391-B60B3816290B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22E804E-C4D9-4580-B391-B60B3816290B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

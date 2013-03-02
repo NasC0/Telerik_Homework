@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassesAndStructures\ClassesAndStructures.csproj">
+    <ProjectReference Include="..\PointClasses\PointClasses.csproj">
       <Project>{1dc66d9e-3011-4c05-8ad5-126eef586b32}</Project>
-      <Name>ClassesAndStructures</Name>
+      <Name>PointClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

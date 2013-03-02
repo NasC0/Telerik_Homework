@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F65518A-2E5A-4D47-9E83-FE0BD65C9DB9}</ProjectGuid>
+    <ProjectGuid>{C22E804E-C4D9-4580-B391-B60B3816290B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1.PointTest</RootNamespace>
-    <AssemblyName>_1.PointTest</AssemblyName>
+    <RootNamespace>_5.GenericListTest</RootNamespace>
+    <AssemblyName>_5.GenericListTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PointTest.cs" />
+    <Compile Include="GenericListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PointClasses\PointClasses.csproj">
-      <Project>{1dc66d9e-3011-4c05-8ad5-126eef586b32}</Project>
-      <Name>PointClasses</Name>
+    <ProjectReference Include="..\GenericListDLL\GenericListDLL.csproj">
+      <Project>{c76c4aaf-9191-4cdf-854b-9e14214dc341}</Project>
+      <Name>GenericListDLL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
