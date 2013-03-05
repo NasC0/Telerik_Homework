@@ -124,7 +124,7 @@ namespace GenericList.Common
         {
             get
             {
-                if (index > count)
+                if (index > count || index < 0)
                 {
                     throw new ArgumentOutOfRangeException();
                 }
