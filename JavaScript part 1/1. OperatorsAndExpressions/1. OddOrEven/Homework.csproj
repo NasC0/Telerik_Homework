@@ -62,6 +62,7 @@
     <Content Include="4. CheckThirdDigit.html" />
     <Content Include="3. RectangleArea.html" />
     <Content Include="5. ThirdBit.html" />
+    <Content Include="6. PointWithinTheCircle.html" />
     <Content Include="Script\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

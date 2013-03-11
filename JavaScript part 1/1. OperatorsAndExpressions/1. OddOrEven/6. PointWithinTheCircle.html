@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Is the point within the circle?</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Circle K(0, 5)");
+        var x = 1;
+        var y = 3;
+        if (((x - 0) * (x - 0)) + ((y - 0) * (y - 0)) <= 5*5) {
+            jsConsole.writeLine("The point (" + x + ", " + y + ") is inside the circle K");
+        }
+        else {
+            jsConsole.writeLine("The point (" + x + ", " + y + ") is outside the circle K");
+        }
+    </script>
+</body>
+</html>
