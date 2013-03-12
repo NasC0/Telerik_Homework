@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Using delegates write a class Timer that 
+ * has can execute certain method at each t seconds. */
+
+using System;
 using System.Diagnostics;
 using TimerClass;
 

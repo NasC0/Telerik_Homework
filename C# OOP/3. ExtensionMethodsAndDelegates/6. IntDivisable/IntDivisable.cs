@@ -1,7 +1,11 @@
-﻿using System;
+﻿/* Write a program that prints from given array of 
+ * integers all numbers that are divisible by 7 and 3. 
+ * Use the built-in extension methods and lambda expressions. 
+ * Rewrite the same with LINQ. */
+
+using System;
 using System.Linq;
 using System.Collections.Generic;
-using IntExtensions;
 
 class IntDivisable
 {
@@ -13,7 +17,7 @@ class IntDivisable
             list.Add(i);
         }
 
-        List<int> newList = list.FindAll(x => (x % 5 == 0 && x % 7 == 0));
+        List<int> newList = list.FindAll(num => (num % 5 == 0 && num % 7 == 0));
 
         foreach (var item in newList)
         {

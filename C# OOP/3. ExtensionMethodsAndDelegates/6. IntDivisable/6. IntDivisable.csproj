@@ -47,12 +47,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\IntDivisibleBy5And7Extension\IntDivisibleBy5And7Extension.csproj">
-      <Project>{95ba4640-ec8f-4b2e-9270-4bfcd2c9a76c}</Project>
-      <Name>IntDivisibleBy5And7Extension</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

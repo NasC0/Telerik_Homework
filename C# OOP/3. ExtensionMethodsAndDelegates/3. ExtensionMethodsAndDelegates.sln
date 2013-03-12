@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. IEnumerableExtensionsTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. GetStudentByName", "3. StudentAlphabeticalSort\3. GetStudentByName.csproj", "{2F4BF7A5-76AB-4774-9532-20D79F84DB03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntDivisibleBy5And7Extension", "IntDivisibleBy5And7Extension\IntDivisibleBy5And7Extension.csproj", "{95BA4640-EC8F-4B2E-9270-4BFCD2C9A76C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. IntDivisable", "6. IntDivisable\6. IntDivisable.csproj", "{F8C1B7B4-4019-46E9-B4D1-A940086F735E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. GetStudentsByAge", "4. GetStudentsByAge\4. GetStudentsByAge.csproj", "{78AC19C8-2983-45DD-B10D-4580865E31D3}"
@@ -49,10 +47,6 @@ Global
 		{2F4BF7A5-76AB-4774-9532-20D79F84DB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F4BF7A5-76AB-4774-9532-20D79F84DB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F4BF7A5-76AB-4774-9532-20D79F84DB03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95BA4640-EC8F-4B2E-9270-4BFCD2C9A76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95BA4640-EC8F-4B2E-9270-4BFCD2C9A76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95BA4640-EC8F-4B2E-9270-4BFCD2C9A76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95BA4640-EC8F-4B2E-9270-4BFCD2C9A76C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8C1B7B4-4019-46E9-B4D1-A940086F735E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8C1B7B4-4019-46E9-B4D1-A940086F735E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C1B7B4-4019-46E9-B4D1-A940086F735E}.Release|Any CPU.ActiveCfg = Release|Any CPU
