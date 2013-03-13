@@ -1,0 +1,29 @@
+﻿<!-- Write an if statement that examines two 
+     integer variables and exchanges their values 
+     if the first one is greater than the second one. -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Which integer is greater</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var firstNumber = parseFloat(prompt("Enter the first number"));
+        var secondNumber = parseFloat(prompt("Enter the second number"));
+
+        if (firstNumber > secondNumber) {
+            var temp = firstNumber;
+            firstNumber = secondNumber;
+            secondNumber = temp;
+            jsConsole.writeLine("Exchanged the two numbers");
+        }
+        else {
+            jsConsole.writeLine("Didn't exchange the two numbers");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!-- Write a script that enters the coefficients 
+     a, b and c of a quadratic equation
+     a*x2 + b*x + c = 0 -->
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quadratic equasion solver</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var a = parseInt(prompt("Enter coefficient a"));
+        var b = parseInt(prompt("Enter coefficient b"));
+        var c = parseInt(prompt("Enter coefficient c"));
+
+        if (a == 0 || b == 0 || c == 0) {
+            jsConsole.writeLine("This is not a real quadratic equation.");
+        }
+
+        else {
+            jsConsole.writeLine("The quadratic equation is: " + a + "(x*x) + " + b + "x + " + c + " = 0");
+            var discriminant = Math.sqrt((b * b) - (4 * a * c));
+
+            if (isNaN(discriminant) == true) {
+                jsConsole.writeLine("Discriminant: 0");
+            }
+            else {
+                jsConsole.writeLine("Discriminant: " + discriminant);
+            }
+
+            if (isNaN(discriminant) == true) {
+                jsConsole.writeLine("The equation has no real roots");
+            }
+            else if (discriminant == 0) {
+                var root = -b / (2 * a);
+                jsConsole.writeLine("The equation has only one real root and it's : " + root);
+            }
+
+            else {
+                var firstRoot = (-b + Math.sqrt(discriminant)) / (2 * a);
+                jsConsole.writeLine("The first root is: " + firstRoot);
+                var secondRoot = (-b - Math.sqrt(discriminant)) / (2 * a);
+                jsConsole.writeLine("The second root is: " + secondRoot);
+            }
+        }
+    </script>
+</body>
+</html>

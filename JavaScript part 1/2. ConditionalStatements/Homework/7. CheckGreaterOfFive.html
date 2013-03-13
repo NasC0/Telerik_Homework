@@ -1,0 +1,38 @@
+﻿<!-- Write a script that finds 
+     the greatest of given 5 variables. -->
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find the greatest of five given values</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var firstValue = 1;
+        var secondValue = 2;
+        var thirdValue = 3;
+        var fourthValue = 4;
+        var fifthValue = 5;
+
+        if (firstValue > secondValue && firstValue > thirdValue && firstValue > fourthValue && firstValue > fifthValue) {
+            jsConsole.writeLine("The greatest variable is: " + firstValue);
+        }
+        else if (secondValue > firstValue && secondValue > thirdValue && secondValue > fourthValue && secondValue > fifthValue) {
+            jsConsole.writeLine("The greatest variable is: " + secondValue);
+        }
+        else if (thirdValue > firstValue && thirdValue > secondValue && thirdValue > fourthValue && thirdValue > fifthValue) {
+            jsConsole.writeLine("The greatest variable is: " + thirdValue);
+        }
+        else if (fourthValue > firstValue && fourthValue > secondValue && fourthValue > thirdValue && fourthValue > fifthValue) {
+            jsConsole.writeLine("The greatest variable is: " + fourthValue);
+        }
+        else {
+            jsConsole.writeLine("The greatest variable is: " + fifthValue);
+        }
+    </script>
+</body>
+</html>

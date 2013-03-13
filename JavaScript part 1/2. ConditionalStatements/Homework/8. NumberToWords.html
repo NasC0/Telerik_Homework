@@ -1,0 +1,112 @@
+﻿<!-- Write a script that converts a number in the range [0...999] 
+    to a text corresponding to its English pronunciation. Examples:
+	0 -> "Zero"
+	273 -> "Two hundred seventy three"
+	400 -> "Four hundred"
+	501 -> "Five hundred and one"
+	711 -> "Seven hundred and eleven" -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Convert numbers to word representation</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var ones = new Array();
+        {
+            ones[0] = "Zero";
+            ones[1] = "One";
+            ones[2] = "Two";
+            ones[3] = "Three";
+            ones[4] = "Four";
+            ones[5] = "Five";
+            ones[6] = "Six";
+            ones[7] = "Seven";
+            ones[8] = "Eight";
+            ones[9] = "Nine";
+        }
+        var specials = new Array();
+        {
+            specials[0] = "Ten";
+            specials[1] = "Eleven";
+            specials[2] = "Twelve";
+            specials[3] = "Thirteen";
+            specials[4] = "Fourteen";
+            specials[5] = "Fifteen";
+            specials[6] = "Sixteen";
+            specials[7] = "Seventeen";
+            specials[8] = "Eighteen";
+            specials[9] = "Nineteen";
+        }
+        var tens = new Array();
+        {
+            tens[0] = "Twenty";
+            tens[1] = "Thirty";
+            tens[2] = "Fourty";
+            tens[3] = "Fifty";
+            tens[4] = "Sixty";
+            tens[5] = "Seventy";
+            tens[6] = "Eighty";
+            tens[7] = "Ninety";
+        }
+        var hundreds = new Array();
+        {
+            hundreds[0] = "One hundred";
+            hundreds[1] = "Two hundred";
+            hundreds[2] = "Three hundred";
+            hundreds[3] = "Four hundred";
+            hundreds[4] = "Five hundred";
+            hundreds[5] = "Six hundred";
+            hundreds[6] = "Seven hundred";
+            hundreds[7] = "Eight hundred";
+            hundreds[8] = "Nine hundred";
+        }
+        var number = parseInt(prompt("Enter your number"));
+
+        if (number >= 0 && number <= 9) {
+            jsConsole.writeLine(ones[number]);
+        }
+
+        else if (number >= 10 && number <= 19) {
+            var specialNumbers = number % 10;
+            jsConsole.writeLine(specials[specialNumbers]);
+        }
+
+        else if (number >= 20 && number < 100) {
+            var tenths = parseInt(number / 10);
+            var tenthsPartTwo = parseInt(number % 10);
+
+            if (tenthsPartTwo == 0) {
+                jsConsole.writeLine(tens[tenths - 2]);
+            }
+            else {
+                jsConsole.writeLine(tens[tenths - 2] + " " + ones[tenthsPartTwo]);
+            }
+        }
+
+        else if (number >= 100 && number < 1000) {
+            var numberHundreds = parseInt(number / 100);
+            var numberTensHolder = parseInt(number / 10);
+            var numberTens = parseInt(numberTensHolder % 10);
+            var numberDigits = parseInt(number % 10);
+
+            if (numberTens == 0) {
+                jsConsole.writeLine(hundreds[numberHundreds - 1] + " and " + ones[numberDigits]);
+            }
+            else if (numberTens == 1) {
+                jsConsole.writeLine(hundreds[numberHundreds - 1] + " and " + specials[numberDigits]);
+            }                                                    
+            else {                                               
+                jsConsole.writeLine(hundreds[numberHundreds - 1] + " " + tens[numberTens - 2] + " " + ones[numberDigits]);
+            }
+        }
+        else {
+            jsConsole.writeLine("Please enter a valid number");
+        }
+    </script>
+</body>
+</html>
