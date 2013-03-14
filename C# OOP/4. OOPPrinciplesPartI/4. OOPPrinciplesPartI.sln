@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractInheritance", "Abst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. AbstractInheritanceTest", "2. AbstractInheritanceTest\2. AbstractInheritanceTest.csproj", "{67281579-3A8E-4C96-AC24-91381DA7F8DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{F5AE1DFB-ACA1-45D7-98CF-0509491DF2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. AnimalKingdomTestr", "3. AnimalKingdomTestr\3. AnimalKingdomTestr.csproj", "{5A8F1911-AFE7-4BDD-AACC-79B242098AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AE1DFB-ACA1-45D7-98CF-0509491DF2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AE1DFB-ACA1-45D7-98CF-0509491DF2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AE1DFB-ACA1-45D7-98CF-0509491DF2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AE1DFB-ACA1-45D7-98CF-0509491DF2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8F1911-AFE7-4BDD-AACC-79B242098AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8F1911-AFE7-4BDD-AACC-79B242098AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8F1911-AFE7-4BDD-AACC-79B242098AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8F1911-AFE7-4BDD-AACC-79B242098AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
