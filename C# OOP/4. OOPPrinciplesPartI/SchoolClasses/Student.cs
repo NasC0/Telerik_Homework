@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Student class, derived from Human class */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

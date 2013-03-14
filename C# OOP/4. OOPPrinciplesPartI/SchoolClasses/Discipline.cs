@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Class Discipline, which describes the name of the course, 
+ * the number of Lectures it has and the Hours of exercises */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

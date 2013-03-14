@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolClasses", "SchoolClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. SchoolTest", "1. SchoolTest\1. SchoolTest.csproj", "{62DA2DF1-FBF3-4A9B-8C35-493B2ECE5AB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractInheritance", "AbstractInheritance\AbstractInheritance.csproj", "{548DA6E9-DAF7-4AB8-8AF1-D69F882A3E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. AbstractInheritanceTest", "2. AbstractInheritanceTest\2. AbstractInheritanceTest.csproj", "{67281579-3A8E-4C96-AC24-91381DA7F8DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{62DA2DF1-FBF3-4A9B-8C35-493B2ECE5AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62DA2DF1-FBF3-4A9B-8C35-493B2ECE5AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62DA2DF1-FBF3-4A9B-8C35-493B2ECE5AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548DA6E9-DAF7-4AB8-8AF1-D69F882A3E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548DA6E9-DAF7-4AB8-8AF1-D69F882A3E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548DA6E9-DAF7-4AB8-8AF1-D69F882A3E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548DA6E9-DAF7-4AB8-8AF1-D69F882A3E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67281579-3A8E-4C96-AC24-91381DA7F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

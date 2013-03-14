@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* The school class that holds the List of Student Classes */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

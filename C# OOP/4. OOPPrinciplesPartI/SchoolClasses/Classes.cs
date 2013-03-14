@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Classes that hold information about the students attending them
+ * and the teachers who participate */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -80,17 +83,6 @@ namespace SchoolClasses
         public string TextID
         {
             get { return this.textID; }
-        }
-
-        public IComment IComment
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
         }
     }
 }
