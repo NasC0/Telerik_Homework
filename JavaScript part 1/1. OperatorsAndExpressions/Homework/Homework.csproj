@@ -63,6 +63,9 @@
     <Content Include="3. RectangleArea.html" />
     <Content Include="5. ThirdBit.html" />
     <Content Include="6. PointWithinTheCircle.html" />
+    <Content Include="7. PrimeNumber.html" />
+    <Content Include="8. TrapezoidArea.html" />
+    <Content Include="9. PointCheck.html" />
     <Content Include="Script\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

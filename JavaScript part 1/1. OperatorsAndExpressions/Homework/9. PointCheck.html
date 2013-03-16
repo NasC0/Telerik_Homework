@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check if the point is within the circle and outside the rectangle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Circle K((1, 1), 3)");
+        jsConsole.writeLine("Rectangle R(top = 1, left = -1, width = 6, height = 2)");
+        var x = parseFloat(prompt("Enter x"));
+        var y = parseFloat(prompt("Enter y"));
+        if (((x - 1) * (x - 1)) + ((y - 1) * (y - 1)) <= 3 * 3) {
+            jsConsole.writeLine("The point (" + x + ", " + y + ") is within the circle K");
+            if ((x >= -1 && x <= 5) && (y >= -1 && y <= 1)) {
+                jsConsole.writeLine("The point is within the rectangle");
+            }
+            else {
+                jsConsole.writeLine("The point is not in the rectangle");
+            }
+
+        }
+        else {
+            jsConsole.writeLine("The point (" + x + ", " + y + ") is not within the circle K:");
+            if ((x >= -1 && x <= 5) && (y >= -1 && y <= 1)) {
+                jsConsole.writeLine("The point is within the rectangle");
+            }
+            else {
+                jsConsole.writeLine("The point is not in the rectangle");
+            }
+        }
+    </script>
+</body>
+</html>

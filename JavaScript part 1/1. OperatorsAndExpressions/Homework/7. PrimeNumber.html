@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Prime number</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var number = prompt("Enter your number");
+        while (number > 100) {
+            alert("The number must be in the interval 0 < number < 100!");
+            number = prompt("Enter your number");
+        }
+        jsConsole.writeLine(number);
+        var counter = 0;
+        for (var i = 1; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                counter++;
+            }
+        }
+        if (counter >= 2) {
+            jsConsole.writeLine("The number is not prime");
+        }
+        else {
+            jsConsole.writeLine("The number is prime");
+        }
+    </script>
+</body>
+</html>
