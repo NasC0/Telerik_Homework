@@ -18,28 +18,35 @@ namespace AcademyPopcorn
             int startCol = 2;
             int endCol = WorldCols - 2;
 
-            for (int i = startCol; i < 10; i++)
+            for (int i = startCol; i < 10; i++) // Task 9 Test
             {
-                Block currBlock = new Block(new MatrixCoords(startRow, i));
+                UnpassableBlock currBlock = new UnpassableBlock(new MatrixCoords(startRow, i));
 
                 engine.AddObject(currBlock);
             }
 
             for (int i = 10; i < 20; i++)
             {
+                Block currBlock = new Block(new MatrixCoords(startRow, i));
+
+                engine.AddObject(currBlock);
+            }
+
+            for (int i = 20; i < 30; i++) // Task 12 Test GiftBlock and Gift
+            {
                 GiftBlock currBlock = new GiftBlock(new MatrixCoords(startRow, i));
 
                 engine.AddObject(currBlock);
             }
 
-            for (int i = 20; i < endCol; i++)
+            for (int i = 30; i < endCol; i++) // Task 10. Exploding Block test
             {
                 ExplodingBlock currBlock = new ExplodingBlock(new MatrixCoords(startRow, i));
 
                 engine.AddObject(currBlock);
             }
 
-            for (int i = 0; i < WorldRows; i++)
+            for (int i = 0; i < WorldRows; i++) // Task 1 Create walls 
             {
                 IndestructibleBlock leftWalls = new IndestructibleBlock(new MatrixCoords(i, 0));
                 IndestructibleBlock rightWalls = new IndestructibleBlock(new MatrixCoords(i, WorldCols - 1));
@@ -48,19 +55,19 @@ namespace AcademyPopcorn
                 engine.AddObject(rightWalls);
             }
 
-            for (int i = 0; i < WorldCols; i++)
+            for (int i = 0; i < WorldCols; i++) // Task 1 Create ceiling
             {
                 IndestructibleBlock ceiling = new IndestructibleBlock(new MatrixCoords(0, i));
 
                 engine.AddObject(ceiling);
             }
 
-            MeteoriteBall meteoriteBall = new MeteoriteBall(new MatrixCoords(WorldRows / 2, 0),
+            MeteoriteBall meteoriteBall = new MeteoriteBall(new MatrixCoords(WorldRows / 2, 0), // Task 7 Add Meteorite Ball
                 new MatrixCoords(-1, 1));
 
             engine.AddObject(meteoriteBall);
 
-            //UnstoppableBall unstoppableBall = new UnstoppableBall(new MatrixCoords(WorldRows / 2, 0),
+            //UnstoppableBall unstoppableBall = new UnstoppableBall(new MatrixCoords(WorldRows / 2, 0), // Task 9 Test Unstoppable ball
             //    new MatrixCoords(-1, 1));
 
             //engine.AddObject(unstoppableBall);
@@ -82,14 +89,14 @@ namespace AcademyPopcorn
             IRenderer renderer = new ConsoleRenderer(WorldRows, WorldCols);
             IUserInterface keyboard = new KeyboardInterface();
 
-            ShootRacketEngine gameEngine = new ShootRacketEngine(renderer, keyboard, 100);
+            ShootRacketEngine gameEngine = new ShootRacketEngine(renderer, keyboard, 100); // Task 2 implement a "Game speed" option | Task 13. ShootRacket test
 
             keyboard.OnLeftPressed += (sender, eventInfo) =>
             {
                 gameEngine.MovePlayerRacketLeft();
             };
 
-            keyboard.OnActionPressed += (sender, eventInfo) =>
+            keyboard.OnActionPressed += (sender, eventInfo) => // Task 13 adding ShootPlayerRacket() to the OnActionPressed event handler
             {
                 gameEngine.ShootPlayerRacket();
             };

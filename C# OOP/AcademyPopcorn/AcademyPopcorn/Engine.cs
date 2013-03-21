@@ -20,7 +20,7 @@ namespace AcademyPopcorn
         {
         }
 
-        public Engine(IRenderer renderer, IUserInterface userInterface, int gameSpeed)
+        public Engine(IRenderer renderer, IUserInterface userInterface, int gameSpeed)  // Task 2 Implement a "Game Speed" constructor
         {
             this.renderer = renderer;
             this.userInterface = userInterface;
@@ -61,12 +61,12 @@ namespace AcademyPopcorn
             }
         }
 
-        private void AddRacket(GameObject obj)
+        private void AddRacket(GameObject obj) // Task 3. There should be only 1 racket at all times.
         {
-            this.allObjects.RemoveAll(racket => racket is Racket);
-            this.staticObjects.RemoveAll(racket => racket is Racket);
+            this.allObjects.RemoveAll(racket => racket is Racket); // At method call destroy all the old rackets in the allObjects list
+            this.staticObjects.RemoveAll(racket => racket is Racket); // and in the staticObjects list
 
-            this.playerRacket = obj as Racket;
+            this.playerRacket = obj as Racket; // add the new racket
             this.AddStaticObject(obj);
         }
 

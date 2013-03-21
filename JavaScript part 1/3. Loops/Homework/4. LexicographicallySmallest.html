@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var smallest = "" + document[0];
+        var biggest = "" + document[0];
+
+        for (var prop in document) {
+            if (prop >= biggest) {
+                biggest = prop;
+            }
+            else if (prop <= smallest) {
+                smallest = prop;
+            }
+        }
+
+        jsConsole.writeLine("Largest property in Document: " + biggest);
+        jsConsole.writeLine("Smallest property in Document: " + smallest);
+        jsConsole.writeLine("");
+
+        var smallest = "" + window[0];
+        var biggest = "" + window[0];
+
+        for (var prop in window) {
+            if (prop >= biggest) {
+                biggest = prop;
+            }
+            else if (prop <= smallest) {
+                smallest = prop;
+            }
+        }
+
+        jsConsole.writeLine("Largest property in Window: " + biggest);
+        jsConsole.writeLine("Smallest property in Window: " + smallest);
+        jsConsole.writeLine("");
+
+        var smallest = "" + navigator[0];
+        var biggest = "" + navigator[0];
+
+        for (var prop in navigator) {
+            if (prop >= biggest) {
+                biggest = prop;
+            }
+            else if (prop <= smallest) {
+                smallest = prop;
+            }
+        }
+
+        jsConsole.writeLine("Largest property in Navigator: " + biggest);
+        jsConsole.writeLine("Smallest property in Navigator: " + smallest);
+    </script>
+</body>
+</html>

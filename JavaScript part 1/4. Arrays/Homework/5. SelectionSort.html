@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Applies selection sort on the array</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var array = [5, 3, 2, 7, 0, 9, 4, 1, 6, 6, 2, 8];
+
+        var temp = 0;
+        var minValue = 0;
+
+        for (var i = 0; i < array.length - 1; i++) {
+            minValue = i;
+
+            for (var j = i + 1; j < array.length; j++) {
+
+                if (array[j] < array[minValue]) {
+                    minValue = j;
+                }
+            }
+
+            temp = array[minValue];
+            array[minValue] = array[i];
+            array[i] = temp;
+        }
+
+        for (var i = 0; i < array.length; i++) {
+            jsConsole.write(array[i] + " ");
+        }
+    </script>
+</body>
+</html>

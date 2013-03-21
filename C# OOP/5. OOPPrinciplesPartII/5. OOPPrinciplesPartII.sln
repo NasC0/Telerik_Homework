@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{781CD9B5-06E5-4DA0-BF20-80785140A95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ShapesTest", "1. ShapesTest\1. ShapesTest.csproj", "{AE330542-EF9D-4BFC-9979-62294EFEED5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankModel", "BankModel\BankModel.csproj", "{B697BF2A-AC72-48B7-A222-247B0752DD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. BankTest", "2. BankTest\2. BankTest.csproj", "{D9259FAF-21F6-4084-AB3B-E93CE1F9DF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. InvalidRangeException", "3. InvalidRangeException\3. InvalidRangeException.csproj", "{2B6E5F75-A90C-4E1B-AF1C-8ACA63D90AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{781CD9B5-06E5-4DA0-BF20-80785140A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781CD9B5-06E5-4DA0-BF20-80785140A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781CD9B5-06E5-4DA0-BF20-80785140A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781CD9B5-06E5-4DA0-BF20-80785140A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE330542-EF9D-4BFC-9979-62294EFEED5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE330542-EF9D-4BFC-9979-62294EFEED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE330542-EF9D-4BFC-9979-62294EFEED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE330542-EF9D-4BFC-9979-62294EFEED5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B697BF2A-AC72-48B7-A222-247B0752DD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B697BF2A-AC72-48B7-A222-247B0752DD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B697BF2A-AC72-48B7-A222-247B0752DD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B697BF2A-AC72-48B7-A222-247B0752DD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9259FAF-21F6-4084-AB3B-E93CE1F9DF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9259FAF-21F6-4084-AB3B-E93CE1F9DF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9259FAF-21F6-4084-AB3B-E93CE1F9DF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9259FAF-21F6-4084-AB3B-E93CE1F9DF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6E5F75-A90C-4E1B-AF1C-8ACA63D90AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6E5F75-A90C-4E1B-AF1C-8ACA63D90AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6E5F75-A90C-4E1B-AF1C-8ACA63D90AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6E5F75-A90C-4E1B-AF1C-8ACA63D90AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

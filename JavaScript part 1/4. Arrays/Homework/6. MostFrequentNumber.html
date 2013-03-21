@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Finds the most frequent number in the array</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var array = [4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3];
+        var maxCount = 0, indexHolder = 0, tempCount = 0;
+
+        for (var i = 0; i < array.length; i++) {
+
+            for (var j = 0; j < array.length; j++) {
+
+                if (array[j] == array[i]) {
+                    tempCount++;
+                }
+            }
+
+            if (tempCount >= maxCount) {
+                maxCount = tempCount;
+                indexHolder = i;
+            }
+
+            tempCount = 0;
+        }
+
+        jsConsole.writeLine("The most frequent number is " + array[indexHolder] + " and it's repeated " + maxCount + " times");
+    </script>
+</body>
+</html>

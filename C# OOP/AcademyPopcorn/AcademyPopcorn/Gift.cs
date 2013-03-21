@@ -1,4 +1,9 @@
-﻿using System;
+﻿/* Task 11
+ * Implement a Gift class. It should be a moving object, which always falls down. 
+ * The gift shouldn't collide with any ball, but should collide (and be destroyed) 
+ * with the racket. You must NOT edit any existing .cs file. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,7 +38,13 @@ namespace AcademyPopcorn
 
         public override void RespondToCollision(CollisionData collisionData)
         {
-            this.IsDestroyed = true;
+            for (int i = 0; i < collisionData.hitObjectsCollisionGroupStrings.Count; i++)
+            {
+                if (collisionData.hitObjectsCollisionGroupStrings[i] != "ball")
+                {
+                    this.IsDestroyed = true;
+                }
+            }
         }
     }
 }

@@ -4,20 +4,16 @@ class ArraySorting
 {
     static void Main()
     {
-        Console.WriteLine("Enter the size of your array: ");
-        int arraySize = int.Parse(Console.ReadLine());
-        int[] sequenceArray = new int[arraySize];
-        Console.WriteLine("Populate your array");
-
-        for (int i = 0; i < arraySize; i++)
+        int[] sequenceArray = 
         {
-            sequenceArray[i] = int.Parse(Console.ReadLine());
-        }
+            5, 3, 2, 7, 0, 9, 4, 1, 6, 6, 2, 8   
+        };
+
         int temp = 0, minValue = 0;
-        for (int i = 0; i < arraySize - 1; i++)
+        for (int i = 0; i < sequenceArray.Length - 1; i++)
         {
             minValue = i;
-            for (int j = i + 1; j < arraySize; j++)
+            for (int j = i + 1; j < sequenceArray.Length; j++)
             {
                 if (sequenceArray[j] < sequenceArray[minValue])
                 {
@@ -31,7 +27,7 @@ class ArraySorting
         }
 
         Console.WriteLine("---------------------------");
-        for (int i = 0; i < arraySize; i++)
+        for (int i = 0; i < sequenceArray.Length; i++)
         {
             Console.Write(sequenceArray[i] + " ");
         }

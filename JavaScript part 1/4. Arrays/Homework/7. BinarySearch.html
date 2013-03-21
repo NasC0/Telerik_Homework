@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Performs a binary search on the array</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var array = [5, 3, 2, 7, 0, 9, 4, 1, 6, 6, 2, 8];
+
+        var temp = 0;
+        var minValue = 0;
+
+        for (var i = 0; i < array.length - 1; i++) {
+            minValue = i;
+
+            for (var j = i + 1; j < array.length; j++) {
+
+                if (array[j] < array[minValue]) {
+                    minValue = j;
+                }
+            }
+
+            temp = array[minValue];
+            array[minValue] = array[i];
+            array[i] = temp;
+        }
+
+        for (var i = 0; i < array.length; i++) {
+            jsConsole.write(array[i] + " ");
+        }
+
+        jsConsole.writeLine("");
+
+        var searchIndex = parseInt(prompt("Enter the number you want to find"));
+        var midPoint = array.length / 2;
+        var indexHolder = 0;
+
+        if (array[midPoint] > searchIndex) {
+            for (var i = 0; i < midPoint; i++) {
+
+                if (array[i] == searchIndex) {
+                    indexHolder = i;
+                    break;
+                }
+            }
+        }
+        else {
+            for (var i = midPoint; i < array.length; i++) {
+
+                if (array[i] == searchIndex) {
+                    indexHolder = i;
+                    break;
+                }
+            }
+        }
+
+        if (array[midPoint] == searchIndex) {
+            jsConsole.writeLine("The number you wanted to find is at index " + midPoint);
+        }
+        else if (array[indexHolder] == searchIndex) {
+            jsConsole.writeLine("The number you wanted to find is at index " + indexHolder);
+        }
+        else {
+            jsConsole.writeLine("No results found");
+        }
+    </script>
+</body>
+</html>

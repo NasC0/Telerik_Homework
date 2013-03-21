@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Task 12
+ * Implement a GiftBlock class. It should be a block, which "drops" 
+ * a Gift object when it is destroyed. You must NOT edit any existing .cs file. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +11,6 @@ namespace AcademyPopcorn
 {
     public class GiftBlock : Block
     {
-        //public new const string CollisionGroupString = 
         public const char Symbol = '&';
 
         public GiftBlock(MatrixCoords topLeft)

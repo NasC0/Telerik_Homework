@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Task 8
+ * Implement an UnstoppableBall. It only bounces off UnpassableBlocks 
+ * and will destroy any other block it passes through. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

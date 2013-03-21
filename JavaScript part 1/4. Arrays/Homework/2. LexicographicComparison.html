@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Lexicographic Comparison</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Script/js-console.js"></script>
+    <script>
+        var firstArray = ['a', 'e', 'y'];
+        var secondArray = ['b', 'd', 'j'];
+        
+        for (var i = 0; i < firstArray.length; i++) {
+            for (var k = 0; k < secondArray.length; k++) {
+                if (firstArray[i] > secondArray[k]) {
+                    jsConsole.writeLine("The element " + firstArray[i] + " from the 1st array at position " + i + " is bigger than the element " + secondArray[k] + " from the 2nd array at position " + k);
+                }
+                else {
+
+                    jsConsole.writeLine("The element " + firstArray[i] + " from the 1st array at position " + i + " is smaller than the element " + secondArray[k] + " from the 2nd array at position " + k);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
