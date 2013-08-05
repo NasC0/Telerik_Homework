@@ -1,0 +1,134 @@
+Telerik_Homework
+================
+01JUL
+S5 3 L/S
+
+03JUL
+QS 8 L/S
+
+04JUL
+QS 8 L/S
+6D 3 L/S
+
+05JUL
+QS 4 L/S
+7W 3 L/S
+S5 1 L/S
+
+06JUL
+6D 2 L/S
+QS 1 L/S
+7W 1 L/S
+
+07JUL
+QS 11 L/S
+6D 2 L/S
+7O 1 L/S
+
+08JUL
+QS 4 L/S
+S5 3 L/S
+
+09JUL
+QS 2 L/S
+6D 6 L/S
+7W 2 L/S
+
+10JUL
+QS 12 L/S
+6D 2 L/S
+
+11JUL
+QS 3 L/S
+6D 4 L/S
+
+12JUL
+QS 1 L/S
+7W 2 L/S
+S5 1 L/S
+
+13JUL
+QS 1 L/S
+6D 1 L/S
+7W 1 L/S
+
+14JUL
+QS 10 L/S
+6D 3 L/S
+7O 1 L/S
+
+15JUL
+QS 7 L/S
+S5 2 L/S
+
+16JUL
+7W 2 L/S
+S5 1 L/S
+
+17JUL
+QS 5 L/S
+6D 2 L/S
+
+18JUL
+QS 5 L/S
+6D 3 L/S
+
+19JUL
+QS 4 L/S
+6D 7 L/S
+7W 1 L/S
+S5 1 L/S
+
+20JUL
+QS 5 L/S
+6D 1 L/S
+7W 1 L/S
+
+21JUL
+QS 6 L/S
+6D 2 L/S
+70 1 L/S
+
+22JUL
+QS 3 L/S
+SP 2 L/S
+
+23JUL
+7W 2 L/S
+S5 1 L/S
+
+24JUL
+QS 7 L/S
+
+25JUL
+QS 8 L/S
+6D 7 L/S
+
+26JUL
+QS 4 L/S
+7W 3 L/S
+S5 1 L/S
+
+27JUL
+QS 2 L/S
+6D 3 L/S
+7W 1 L/S
+
+28JUL
+QS 10 L/S
+6D 4 L/S
+7O 1 L/S
+
+29JUL
+QS 4 L/S
+P7 2 L/S
+
+30JUL
+QS 3 L/S
+6D 5 L/S
+7W 2 L/S
+S5 1 L/S
+
+31JUL
+QS 10 L/S
+6D 2 L/S
